@@ -75,47 +75,12 @@ colors = [
 random_color = random.choice(colors)
 def idelay(o):
     while(o>0):
-        o=o-1
-        print(f"{trang}[{xanhnhat}Thành Vinh{trang}] \033[1;33mV\033[1;34mu\033[1;35mi \033[1;32mL\033[1;33mò\033[1;34mn\033[1;35mg \033[1;36mC\033[1;33mh\033[1;34mờ {trang}[\033[1;35m.....""]""["+str(o)+"]""    ",end='\r')
-        time.sleep(1/6)
-        print(f"{trang}[{xanhnhat}Thành Vinh{trang}] \033[1;31mV\033[1;32mu\033[1;33mi \033[1;34mL\033[1;35mò\033[1;31mn\033[1;32mg \033[1;33mC\033[1;32mh\033[1;35mờ {trang}[\033[1;33m•{trang}....""]"f"{trang}[{xanhnhat}"+str(o)+f"{trang}]""     ",end='\r')
-        time.sleep(1/6)
-        print(f"{trang}[{xanhnhat}Thành Vinh{trang}] \033[1;32mV\033[1;33mu\033[1;34mi \033[1;35mL\033[1;36mò\033[1;33mn\033[1;34mg \033[1;35mC\033[1;31mh\033[1;32mờ {trang}[\033[1;35m••{trang}...""]"f"{trang}[{xanh_la}"+str(o)+f"{trang}]""     ",end='\r')
-        time.sleep(1/6)
-        print(f"{trang}[{xanhnhat}Thành Vinh{trang}] \033[1;31mV\033[1;33mu\033[1;35mi \033[1;33mL\033[1;31mò\033[1;32mn\033[1;34mg \033[1;36mC\033[1;35mh\033[1;31mờ {trang}[\033[1;32m•••{trang}..""]"f"{trang}[{do}"+str(o)+f"{trang}]""     ",end='\r')
-        time.sleep(1/6)
-        print(f"{trang}[{xanhnhat}Thành Vinh{trang}] \033[1;32mV\033[1;34mu\033[1;36mi \033[1;32mL\033[1;34mò\033[1;31mn\033[1;35mg \033[1;33mC\033[1;36mh\033[1;35mờ {trang}[\033[1;38m••••{trang}.""]"f"{trang}[{tim}"+str(o)+f"{trang}]""     ",end='\r')
-        time.sleep(1/6)
-        print(f"{trang}[{xanhnhat}Thành Vinh{trang}] \033[1;31mV\033[1;34mu\033[1;36mi \033[1;32mL\033[1;34mò\033[1;32mn\033[1;35mg \033[1;36mC\033[1;34mh\033[1;32mờ {trang}[\033[1;33m•••••{trang}""]"f"{trang}[{vang}"+str(o)+f"{trang}]""     ",end='\r')
-        time.sleep(0.1)
-        print(f"{trang}[{xanhnhat}Thành Vinh{trang}] \033[1;31mV\033[1;34mu\033[1;36mi \033[1;32mL\033[1;34mò\033[1;32mn\033[1;35mg \033[1;36mC\033[1;34mh\033[1;32mờ {trang}[\033[1;33m•••••{trang}""]"f"{trang}[{xanh_la}"+str(o)+f"{trang}]""     ",end='\r')
 
 chontool = f"""
  clear
-sshd
-cd
-cd cloud
-
-for i in $(seq 7)
-do
-echo -e "\e[1;3"$i"m  \e[1m"
-echo "。、★、•、、、";
-echo "、、 ☆ ❤ 、＼＊•";
-echo "•❤☆＼•＼☆＼、＊";
-echo "＼、＊• ❤＼☆＼、";
-echo "╭⌒╮⌒⌒╮•╱◥██◣❤ ★";
-echo "｜田  ｜田田|•♧";
-echo "╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬";
-echo "   ";
-echo "   ";
-echo "   ";
-echo "copyright © by AT 0933954440";
-echo "loading................";
-sleep 2
-clear
-done
-export PS1="\[\e[32m\][\[\e[m\]\[\e[31m\]\u\[\e[m\]\[\e[33m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]:\[\e[36m\]\w\[\e[m\]\[\e[32m\]]\[\e[m\]\[\e[32;47m\]\\$\[\e[m\] "
-
+┌\033[1;37m───────────────────────────────────────────────────────┐
+│{do}[{trang}{kt_code}{do}] {do} \033[1;35m copyright © by AT 0933954440\033[0m │
+ └\033[1;37m───────────────────────────────────────────────────────┘
 """
 
 clear()
