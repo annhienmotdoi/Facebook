@@ -75,7 +75,9 @@ colors = [
 random_color = random.choice(colors)
 def idelay(o):
     while(o>0):
-
+o=o-1
+        print(f"{trang}[{xanhnhat}T Waiting ..... {trang}] \033[1;33mV\033[1;34mu\033[1;35mi \033[1;32mL\033[1;33mò\033[1;34mn\033[1;35mg \033[1;36mC\033[1;33mh\033[1;34mờ {trang}[\033[1;35m.....""]""["+str(o)+"]""    ",end='\r')
+        time.sleep(1/6)
 chontool = f"""
 
 ┌\033[1;37m───────────────────────────────────────────────────────┐
